@@ -10,8 +10,12 @@
     </tr>
   </table>
   <br><hr><br>
-  <div class="result">
+  <div [ngClass]="{'result-blue': color=='blue', 'result-red': color=='red', 'result-green': color=='green',
+       'result-black': color=='black', 'result-yellow': color=='yellow','result-pink': color=='pink' }" *ngIf="color!=''">
     You have selected {{color}}
+  </div>
+  <div *ngIf="color==''">
+    Select Any Color
   </div>
 
 </div>

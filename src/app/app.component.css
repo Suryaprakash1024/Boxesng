@@ -28,6 +28,21 @@
     color: pink;
     height: 40px;
 }
-.result{
+.result-blue{
     color: blue;
+}
+.result-green{
+    color: green;
+}
+.result-black{
+    color: black;
+}
+.result-pink{
+    color: pink;
+}
+.result-yellow{
+    color: yellow;
+}
+.result-red{
+    color: red;
 }
