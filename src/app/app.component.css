@@ -1,0 +1,33 @@
+.red{
+    background-color: red;
+    height: 40px;
+    color: red;
+}
+.green{
+    background-color: green;
+    color: green;
+    height: 40px;
+}
+.black{
+    background-color: black;
+    color: black;
+    height: 40px;
+}
+.blue{
+    background-color: blue;
+    color: blue;
+    height: 40px;
+}
+.yellow{
+    background-color: yellow;
+    color: yellow;
+    height: 40px;
+}
+.pink{
+    background-color: pink;
+    color: pink;
+    height: 40px;
+}
+.result{
+    color: blue;
+}
